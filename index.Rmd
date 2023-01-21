@@ -1,0 +1,61 @@
+---
+# title: "Stats, `R` & more"
+title: "Title"
+date: "Last update on `r format(Sys.time(), '%d %B %Y')`"
+author: "Subtitle"
+# author: "A collection of thoughts and tools"
+output: 
+  bookdown::html_document2:
+    toc: TRUE
+    toc_float: TRUE
+    toc_collapsed: TRUE
+    toc_depth: 4
+    number_sections: FALSE
+    css: utils/style.css
+    includes:
+      after_body: utils/footer.html
+bibliography: utils/refs.bib
+---
+
+<!-- START OF -->
+<br>
+
+***
+<!-- DOCUMENT -->
+
+```{r setup, include=FALSE}
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Entry 1
+
+...
+
+#### Part 1
+
+...
+
+#### Part 2
+
+...
+
+<!-- END OF -->
+<br>
+
+***
+<!-- SECTION -->
+
+## Entry 2
+
+...
+
+<!-- END OF -->
+<br>
+
+***
+<!-- SECTION -->
+
+## References
