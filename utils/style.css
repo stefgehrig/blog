@@ -2,6 +2,7 @@
 body{
   font-family: Segoe UI Light;
   font-size: 12pt;
+  text-align: justify
 }
 /* Headers */
 h1{ /* doc title */
@@ -70,4 +71,3 @@ p.caption, caption{
   background-position: center center;
   background-repeat: no-repeat;
 }
-
