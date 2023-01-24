@@ -1,7 +1,7 @@
 ---
-title: "Thoughts & Tools"
+title: "Lorem ipsum"
 date: "Last update on `r format(Sys.time(), '%d %B %Y')`"
-author: "A collection on stats, causality and `R`"
+author: "Lorem ipsum and `R`"
 output: 
   bookdown::html_document2:
     toc: TRUE
